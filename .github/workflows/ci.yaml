@@ -11,6 +11,7 @@ on:
 
 env:
   HEAD_COMMIT_MESSAGE: ${{ contains(github.event.head_commit.message, '[skip ci]') }}
+  HEAD_COMMIT_MESSAGE: ${{ contains(github.event.head_commit.message, '[skip ci]') }}
 
 jobs:
   # https://srz-zumix.blogspot.com/2019/10/github-actions-ci-skip.html
